@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+# Konfiguration mit lokalen Werten
+.env
+
+# Arbeitsdaten (NIEMALS einchecken - koennen Personenbezug enthalten)
+input_docs/*
+output_docs/*
+processed/*
+fehler/*
+anonymisierung_fehler.txt
+anonymisierung_fallback.txt
+
+# Leere Arbeitsordner aber erhalten
+!input_docs/.gitkeep
+!output_docs/.gitkeep
+!processed/.gitkeep
+!fehler/.gitkeep

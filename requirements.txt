@@ -1,0 +1,8 @@
+# Anonymisierungs-Agent - Abhaengigkeiten (Python 3.10+)
+# Installation:  pip install -r requirements.txt
+openai>=1.0          # Client fuer LM Studio (OpenAI-kompatible API)
+pymupdf>=1.23        # PDF lesen (Modul-Import: fitz)
+python-docx>=1.1     # DOCX lesen/schreiben (Modul-Import: docx)
+openpyxl>=3.1        # XLSX lesen/schreiben, Formeln/Formatierung erhalten
+extract-msg>=0.48    # Outlook .msg-Dateien lesen
+python-dotenv>=1.0   # optional: .env-Datei einlesen (LM_STUDIO_URL / MODEL)
