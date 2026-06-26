@@ -1,5 +1,15 @@
 # Anonymisierungs-Agent
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Lokal · kein Datenleck](https://img.shields.io/badge/Lokal-kein%20Datenleck-brightgreen.svg)
+![Modi: VOLLTEXT · TABELLE](https://img.shields.io/badge/Modi-VOLLTEXT%20%C2%B7%20TABELLE-lightgrey.svg)
+
+> **Kurz gesagt:** Dieses Tool ersetzt Namen, E-Mail-Adressen, Telefonnummern, Firmen und
+> Adressen in deinen Dokumenten durch Platzhalter wie `[NAME]` – **vollständig lokal auf
+> deinem Rechner**, bevor du sie an eine KI gibst. Unterstützt TXT, DOCX, PDF, XLSX und
+> E-Mails. Einrichtung in wenigen Minuten (LM Studio + ein Install-Skript).
+
 Lokales Werkzeug zum Pseudonymisieren von Dokumenten **bevor** sie an externe
 KI-Systeme weitergegeben werden.
 
